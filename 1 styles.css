@@ -1,0 +1,69 @@
+body {
+    color: #7998b7;
+    
+    text-align: center;  /* For centering the elements */
+    font-family: "Orbitron", sans-serif; 
+    font-optical-sizing: auto;
+    font-weight: 800; /*  <weight>: Use a value from 400 to 900 */ 
+    font-style: normal;
+    margin: 0;
+}
+
+h1 {
+    text-shadow: 0px 0px 4px black;
+}
+
+.hero {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2F3Mjdic2Z5dW1jNGZ2NWdhbXppemx0Zm9kbXFmd2l2eDQ2cGUwNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3og0IyRiAsl1Pczi6Y/giphy-downsized-large.gif");
+    background-size: cover;
+    padding: 280px 0 280px 0;
+    
+}
+
+.bottom {
+    height: 10px;
+    margin-bottom: 0px;
+}
+
+.btn {
+    font-family: inherit; /* Or we just write this 'font-family: "Orbitron", sans-serif;' since button won't inherit on its own.*/ 
+    padding: 5px 10px; 
+    background: white; /* Because default is some grayish color */
+    border: none; /* To remove default border */ 
+    font-size: large;
+    color: #7998b7;
+    font-weight: bold;
+}
+
+.underline {
+    /*  NOT THE CORRECT WAY TO UNDERLINE *HERE*. I REPEAT. NOT THE CORRECT WAY TO UNDERLINE HERE. WE USE THE border-bottom PROPERTY.
+    font-family: inherit;
+    font-style: underline; */
+    border-bottom: 4px solid white;
+}
+
+#main_logo {
+    width: 200px;
+}
+
+/* 
+The harder way to do things
+
+<div class="centralize">
+        <h1>Join the exploration!</h1>
+    </div>
+    <div class="centralize">
+        <button class="btn">Apply!</button>
+    </div>
+
+
+.centralize {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    font-weight: bold;
+    padding: 5px 10px;  top/bottom and right/left  
+}  */
+
